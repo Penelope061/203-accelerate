@@ -47,3 +47,58 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Studies */
+
+aside.case-study-sidebar {
+	width: 300px;
+	float:left;
+}
+
+aside.case-study-sidebar h5 {
+	text-transform: none;
+	font: 600 1.5625em 'Open Sans', Arial, sans-serif;
+}
+
+aside.case-study-sidebar h6 {
+	text-transform: none;
+	font: 200 0.875em 'Open Sans', Arial, sans-serif;
+	color: #878787;
+	margin: 0.6em 0;
+}
+
+aside.case-study-sidebar p{
+	font: 1em, 'Open Sans', sans-serif;
+}
+
+div.case-study-images {
+	width:600px;
+	float: left;
+	padding-left: 60px;
+}
+
+/* Featured Work */
+
+section.featured-work {
+	width: 100%;
+}
+
+section.featured-work h4 {
+	font: 700 0.9375em 'Montserrat' serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section ul.homepage-featured-work {
+	list-style: none;
+	margin: 0;
+}
+
+section.individual-featured-work h3{
+	font: 400 1em 'Open Sans', Arial, sans-serif;
+	color: #3b3b3b;
+}
+
+section.individual-featured-work li{
+	display: inline;
+}
