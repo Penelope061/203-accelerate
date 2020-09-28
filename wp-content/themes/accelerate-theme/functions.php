@@ -40,6 +40,8 @@ function accelerate_setup() {
     register_nav_menus( array (
         'top-nav' => __( 'Top Nav', 'accelerate' ),
         'social-media'  => __( 'Social Media Nav', 'accelerate' ),
+		'before_social-media' => '<span class="screen-reader-text">',
+		'after_social-media'  => '</span>',
     ) );
 }
 add_action( 'after_setup_theme', 'accelerate_setup' );

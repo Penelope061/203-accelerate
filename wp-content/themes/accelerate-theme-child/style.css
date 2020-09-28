@@ -115,4 +115,45 @@ section ul.homepage-featured-work {
 	display: inline;
 }
 
+/* Social Nav */
 
+.social-media-menu {
+	list-style: none;
+}
+/*<a> elements with an href matching "https://example.org" */
+a[href="http://twitter.com/skillcrush"]:before {
+	font-family: "Font Awesome 5 Brands";
+   	content: "\f081";
+   	display: inline-block;
+   	padding-right: 3px;
+   	vertical-align: middle;
+   	font-weight: 900;
+	font-size: 1.5em;
+  	color: #3b3b3b;
+	
+}
+
+a[href="http://facebook.com/skillcrush"]:before {
+  	font-family: "Font Awesome 5 Brands";
+   	content: "\f09a";
+   	display: inline-block;
+   	padding-right: 3px;
+   	vertical-align: middle;
+   	font-weight: 900;
+	font-size: 1.5em;
+  	color: #3b3b3b;
+	
+}
+
+
+a[href="http://linkedin.com/skillcrush"]:before {
+  	font-family: "Font Awesome 5 Brands";
+   	content: "\f08c";
+   	display: inline-block;
+   	padding-right: 3px;
+   	vertical-align: middle;
+   	font-weight: 900;
+	font-size: 1.5em;
+  	color: #3b3b3b;
+	
+}
