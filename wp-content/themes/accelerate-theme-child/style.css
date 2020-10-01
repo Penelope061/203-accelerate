@@ -2,7 +2,7 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
+Author:   	Gioia
 Author URI:   http://example.com
 Template: 	accelerate-theme
 Version:      2.0.0
@@ -46,4 +46,93 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+aside.case-study-sidebar {
+	width: 300px;
+	float:left;
+}
+
+aside.case-study-sidebar h5 {
+	text-transform: none;
+	font: 600 1.5625em 'Open Sans', Arial, sans-serif;
+}
+
+aside.case-study-sidebar h6 {
+	text-transform: none;
+	font: 200 0.875em 'Open Sans', Arial, sans-serif;
+	color: #878787;
+	margin: 0.6em 0;
+	padding-bottom: 1.5625em; 
+}
+
+aside.case-study-sidebar p{
+	font: 1em, 'Open Sans', sans-serif;
+	padding-bottom: 1.5625em; 
+}
+aside.case-study-sidebar p a{
+	font: 600 0.9375em 'Montserrat', Arial, sans-serif;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+div.case-study-images {
+	width:600px;
+	float: left;
+	padding-left: 60px;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+/* Featured Work */
+
+section.featured-work {
+	width: 100%;
+}
+
+section.featured-work h4 {
+	font: 700 0.9375em 'Montserrat' serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section ul.homepage-featured-work {
+	list-style: none;
+	margin: 0;
+}
+
+.individual-featured-work h3{
+	font: 400 1em 'Open Sans', Arial, sans-serif;
+	color: #3b3b3b;
+}
+
+.individual-featured-work li{
+	display: inline-block;
+}
+
+/* Social Nav */
+
+.social-media-navigation ul li {
+	list-style: none;
+	display: inline-block;
+	background-color: #3b3b3b;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+ .menu-item a {
+	color: #fff;
+
+
 }
