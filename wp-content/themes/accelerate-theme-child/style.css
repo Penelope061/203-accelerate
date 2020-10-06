@@ -136,3 +136,54 @@ section ul.homepage-featured-work {
 
 
 }
+
+/* Contact form */
+
+div.main-content h2 {
+    font: bold 1.5625em 'Montserrat', sans-serif;
+}
+
+div.main-content p {
+   font: 400 1.03125em 'Open Sans', sans-serif ;
+   width: 80%;
+}
+div.nf-form-content {
+    width: 80%;
+}
+
+label#nf-label-field-1 {
+    font: 600 0.875em 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+input#nf-field-1.ninja-forms-field.nf-element {
+    background-color: white;
+    border-color: #bfbfbf;
+}
+
+label#nf-label-field-2 {
+    font: 600 0.875em 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+input#nf-field-2.ninja-forms-field.nf-element {
+    background-color: white;
+    border-color: #bfbfbf;
+}
+
+label#nf-label-field-3 {
+    font: 600 0.875em 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+textarea#nf-field-3.ninja-forms-field.nf-element {
+    background-color: white;
+    border-color: #bfbfbf;
+}
+
+input#nf-field-4.ninja-forms-field.nf-element {
+    font: 600 1.125em 'Montserrat', sans-serif;
+    color: white;
+    background-color: #45ac9d;
+    float: right;
+    width: 30%;
+}
