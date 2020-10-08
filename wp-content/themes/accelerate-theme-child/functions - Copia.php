@@ -37,17 +37,3 @@ add_action( 'init', 'create_custom_post_types' );
 
 
 //Custom class to body element
-
-
-
-//Filter function
-	function contact ( $classes) {
-		
-		if (is_page('contact-us') ) {
-			$classes[] = 'contact';
-		}
-		
-		return $classes;
-	} 
-    
-add_filter( 'body_class','contact' );

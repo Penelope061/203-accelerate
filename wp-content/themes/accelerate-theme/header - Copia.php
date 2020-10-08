@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( array('contact') ); ?>>
+<body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="container">
 		<div class="page-header clearfix">

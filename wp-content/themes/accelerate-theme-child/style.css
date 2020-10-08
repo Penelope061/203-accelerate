@@ -139,6 +139,10 @@ section ul.homepage-featured-work {
 
 /* Contact form */
 
+.contact .main-content {
+	width: 80%;
+}
+/*
 div.main-content h2 {
     font: bold 1.5625em 'Montserrat', sans-serif;
 }
@@ -187,3 +191,4 @@ input#nf-field-4.ninja-forms-field.nf-element {
     float: right;
     width: 30%;
 }
+*/
