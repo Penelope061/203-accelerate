@@ -13,6 +13,7 @@ Text Domain:  accelerate-theme-child
 
 .home-page {
 	background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	flex-grow: unset;
 }
 	
 #masthead {
@@ -141,19 +142,16 @@ section ul.homepage-featured-work {
 
 .contact .main-content {
 	width: 80%;
-}
-/*
-div.main-content h2 {
-    font: bold 1.5625em 'Montserrat', sans-serif;
+	flex-grow: unset;
+	marging-left: 20px;
+	font: 400 1.03125em 'Open Sans', sans-serif ;
+	margin-left: 80px;
 }
 
-div.main-content p {
-   font: 400 1.03125em 'Open Sans', sans-serif ;
-   width: 80%;
+.contact .main-content h2{
+	font: bold 1.5625em 'Montserrat', sans-serif;
 }
-div.nf-form-content {
-    width: 80%;
-}
+
 
 label#nf-label-field-1 {
     font: 600 0.875em 'Open Sans', sans-serif;
@@ -191,4 +189,3 @@ input#nf-field-4.ninja-forms-field.nf-element {
     float: right;
     width: 30%;
 }
-*/
