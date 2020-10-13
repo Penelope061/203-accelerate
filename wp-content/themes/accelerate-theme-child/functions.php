@@ -36,10 +36,6 @@ register_post_type( 'case_studies',
 add_action( 'init', 'create_custom_post_types' );
 
 
-//Custom class to body element
-
-
-
 //Filter function
 	function contact ( $classes) {
 		
@@ -51,3 +47,5 @@ add_action( 'init', 'create_custom_post_types' );
 	} 
     
 add_filter( 'body_class','contact' );
+
+
