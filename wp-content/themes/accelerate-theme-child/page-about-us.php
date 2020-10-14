@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying about us page.
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -18,9 +18,7 @@ get_header(); ?>
 
 <div id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
-			<div class="about-us-header">
-				<h3><span>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</h3>
-			</div>		
+				<h3 class="hero-intro">Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</h3>	
 	</div>
 </div>
 
@@ -43,11 +41,11 @@ get_header(); ?>
 				$image_service_4 = get_field('image_service_4');
 				$service_4 = get_field('service_4');
 				$service_4_text = get_field('service_4_text');
-				$size = "thumbnail";
+				$size = "full";
 		?>
 		
 		<div class="about-us"><!--row-->
-			<div class="about-us-img">
+			<div class="about-us-img-left">
 				<?php if($image_service_1){
 					echo wp_get_attachment_image($image_service_1, $size);
 					}?>
@@ -60,12 +58,12 @@ get_header(); ?>
 				<h5><?php echo $service_2; ?></h5>
 				<p><?php echo $service_2_text; ?></p>
 			</div>
-			<div class="about-us-img">
+			<div class="about-us-img-right">
 				<?php if($image_service_2){
 					echo wp_get_attachment_image($image_service_2, $size);
 					}?>				
 			</div>
-			<div class="about-us-img">
+			<div class="about-us-img-left">
 				<?php if($image_service_3){
 					echo wp_get_attachment_image($image_service_3, $size);
 					}?>
@@ -78,20 +76,25 @@ get_header(); ?>
 				<h5><?php echo $service_4; ?></h5>
 				<p><?php echo $service_4_text; ?></p>
 			</div>
-			<div class="about-us-img">
+			<div class="about-us-img-right">
 				<?php if($image_service_4){
 					echo wp_get_attachment_image($image_service_4, $size);
 					}?>				
 			</div>
 		</div>
-		<!--form-->
 		
 		<?php endwhile; // end of the loop. ?>
+		
+		<!-- Action - Work with us -->
+		
+		<div class="work-with-us">
+				<h5>Interested in working with us?</h5>
+				   <input type="submit" value="Contact Us" onClick="mailto:info@accelerate.com"> 
+		
+		</div>
 		
 	</div><!-- .main-content -->
 
 </div><!-- #primary sidebar-->
-
-<!--form-->
 
 <?php get_footer(); ?>

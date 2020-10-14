@@ -14,6 +14,19 @@ Text Domain:  accelerate-theme-child
 .home-page {
 	background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 	flex-grow: unset;
+	text-align: center;
+	/*.height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	*/
+}
+
+.hero-content h3 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 3em;
 }
 	
 #masthead {
@@ -191,28 +204,25 @@ input#nf-field-4.ninja-forms-field.nf-element {
 }
 
 /* About Us */
-
-.about-us-header h3 {
-	width: 590px;
-	text-align: center;
+.hero-intro {
+	padding: 0 650px 0 650px;
 }
 
-.about-us-header span {
-	color: #45ac9d;
+h3.hero-intro {
+	font-weight: 600;
 }
+
 
 .about-us-intro {
-	font: 400 1.03125em 'Montserrat', Arial, sans-serif;
-	text-align: center;
+	font: 400 1.03125em 'Open Sans', Arial, sans-serif;
 	line-height: 1.75em;
 	width: 950px;
-	margin-top: 78px;
-	
+	margin: 58px 0 65px 0;
+	text-align: center;
 }
 
 .about-us-intro h6{
-	font-size: 0.9375em;
-	font-weight: bold;
+	font: bold 0.9375em 'Montserrat', Arial, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 25px;
 }
@@ -224,56 +234,88 @@ input#nf-field-4.ninja-forms-field.nf-element {
   	justify-content: space-between;
 }
 
-.about-us .service {
-	flex-basis: 68%;
-	height: auto;
-	
-}
-
-.about-us-img {
+.about-us-img-left {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
 	flex-basis: 32%;
   	height: auto;
-	vertical-align: middle;
-
 }
 
-
-/*
-aside.case-study-sidebar {
-	width: 300px;
-	float:left;
+.about-us-img-right {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	flex-basis: 32%;
+  	height: auto;
 }
 
-aside.case-study-sidebar h5 {
-	text-transform: none;
+.service {
+	flex-basis: 68%;
+	height: auto;	
+}
+
+.service h5 {
 	font: 600 1.5625em 'Open Sans', Arial, sans-serif;
+	text-transform: capitalize;
+	line-height: 2.1875em;
 }
 
-aside.case-study-sidebar h6 {
-	text-transform: none;
-	font: 200 0.875em 'Open Sans', Arial, sans-serif;
-	color: #878787;
-	margin: 0.6em 0;
-	padding-bottom: 1.5625em; 
+ .work-with-us {
+	border-top: 1px solid #bfbfbf;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
 }
 
-aside.case-study-sidebar p{
-	font: 1em, 'Open Sans', sans-serif;
-	padding-bottom: 1.5625em; 
+.work-with-us h5 {
+	font: bold 1.5625em 'Open Sans', Arial, sans-serif;
+	text-transform: capitalize;	
 }
-aside.case-study-sidebar p a{
-	font: 600 0.9375em 'Montserrat', Arial, sans-serif;
+
+input[type=submit] {
+  width: 238px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 33px 0 0 33px;
+  background-color: #45ac9d;
+  font: bold 1.25em 'Montserrat', Arial, sans-serif;
+  color: #fff;
+  border: none;
+  text-transform: capitalize;
+}
+
+/* 404 Page */
+
+.error-404-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.error-404-column {
+	box-sizing: border-box;
+}
+
+.left {
+	flex-basis:  25%;
+	align-items: center;
+}
+
+.right {
+	flex-basis: 75%;
+}
+
+h1.title-404 {
+	font: bold 2.1875em 'Londrina Solid', Arial, sans-serif; 
 	color: #45ac9d;
-	text-transform: uppercase;
+	line-height: 2.8125em;
 }
 
-div.case-study-images {
-	width:600px;
-	float: left;
-	padding-left: 60px;
+.content-404 p{
+	font: 400 1.25em 'Open-sans', Arial, sans-serif; 
 }
 
-div.case-study-images img {
-	width: 100%;
-	height: auto;
-}*/
+.content-404 strong{
+	color: #45ac9d;
+}
