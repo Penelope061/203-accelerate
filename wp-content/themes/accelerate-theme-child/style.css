@@ -39,9 +39,9 @@ Text Domain:  accelerate-theme-child
 }
 
 .blog-post {
-	width: 50%;
+	width: 42%;
 	float: left;
-	margin-bottom: 2em;
+	margin: 0 2.5em 2em 0;
 }
 
 .blog-post h4 {
@@ -56,6 +56,38 @@ Text Domain:  accelerate-theme-child
 }
 
 .read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Twitter widget */
+
+.widget-area {
+	width: 42%;
+	float: left;
+	margin: 0 0 2em 3.4375em;
+}
+
+h3.widget-title {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.aptf-tweet-username {
+    font: 600 1.5em 'Montserrat', Arial, sans-serif;
+    color: #000;
+    line-height: 5em; 
+}
+
+.aptf-align {
+    text-align: left;
+} 
+
+.aptf-follow-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;

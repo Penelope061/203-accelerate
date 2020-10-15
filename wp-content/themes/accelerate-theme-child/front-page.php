@@ -56,7 +56,17 @@ get_header(); ?>
 			 <?php endwhile; ?> 
 			 <?php wp_reset_query(); ?>
 		</div>
- 	</div>
+		
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+		<div id="secondary" class="widget-area" role="complementary">
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			<div class="aptf-align">
+				<a href="https://twitter.com/@GMWebDev1" target="_blank" class="aptf-follow-link"><strong>follow us</strong></a>
+				</div>
+		</div>
+		
+			<?php endif; ?>
+	</div>
 </section>
 
 <?php get_footer(); ?>
