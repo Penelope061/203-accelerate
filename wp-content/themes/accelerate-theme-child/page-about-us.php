@@ -87,10 +87,13 @@ get_header(); ?>
 		
 		<!-- Action - Work with us -->
 		
+		
+		
 		<div class="work-with-us">
 				<h5>Interested in working with us?</h5>
-				   <input type="submit" value="Contact Us" onClick="mailto:info@accelerate.com"> 
-		
+				    <form action="../contact-us/">
+    					<input type="submit" value="Contact Us" />
+					</form>
 		</div>
 		
 	</div><!-- .main-content -->
