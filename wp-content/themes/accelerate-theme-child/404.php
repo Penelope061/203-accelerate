@@ -15,7 +15,7 @@ get_header(); ?>
 		
 		<div class="error-404-row">
 		  <div class="error-404-column left">
-			<img src="wp-content\themes\accelerate-theme-child\img\404-map.png">
+			<img src="wp-content\themes\accelerate-theme-child\img\404-map.png" alt="map">
 		  </div>
 		  <div class="error-404-column right">
 			<h1 class="title-404"><?php _e( 'Whoops, Took a Wrong Turn…', 'accelerate' ); ?></h1>
