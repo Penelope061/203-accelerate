@@ -266,9 +266,6 @@ h3.hero-intro {
 
 .about-us {
 	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-  	justify-content: space-between;
 }
 
 .about-us-img-left {
@@ -370,6 +367,18 @@ div.mc4wp-form-fields input {
 		width: 90%;
 	}
 	
+	/*.about-us-intro {
+		text-align: center;
+	}*/
+	
+	.about-us {
+	display: flex;
+	flex-wrap: wrap;
+  	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	}
+	
 	
 	.about-us-img-left {
 	display: flex;
@@ -406,35 +415,38 @@ div.mc4wp-form-fields input {
 		width: 30%;
 	}
 	
-	.about-us {
-	width: 79%;
-	}
-	
 	.about-us-intro {
-	width: 79%;
+	width: 950px;
 
 	}
 	
-	.about-us-img-left {
+	.about-us {
+	width: 950px;
+	display: flex;
+	flex-wrap: wrap;
+  	justify-content: space-between;
+}
+
+.about-us-img-left {
 	display: flex;
     justify-content: flex-start;
     align-items: center;
 	flex-basis: 32%;
   	height: auto;
-	}
+}
 
-	.about-us-img-right {
+.about-us-img-right {
 	display: flex;
     justify-content: flex-end;
     align-items: center;
 	flex-basis: 32%;
   	height: auto;
-	}
-	
-	.service {
+}
+
+.service {
 	flex-basis: 68%;
 	height: auto;	
-	}
+}
 	
 	 .work-with-us {
 	border-top: 1px solid #bfbfbf;
