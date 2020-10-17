@@ -237,23 +237,18 @@ input#nf-field-4.ninja-forms-field.nf-element {
 
 /* About Us */
 .hero-intro {
-	width: 100%;
+	padding: 0 650px 0 650px;
 }
 
 h3.hero-intro {
 	font-weight: 600;
 }
 
-.about-us-header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 .about-us-intro {
 	font: 400 1.03125em 'Open Sans', Arial, sans-serif;
 	line-height: 1.75em;
-	width: 100%;
+	width: 950px;
 	margin: 58px 0 65px 0;
 	text-align: center;
 }
@@ -265,23 +260,30 @@ h3.hero-intro {
 }
 
 .about-us {
-	width: 100%;
+	width: 950px;
 	display: flex;
 	flex-wrap: wrap;
   	justify-content: space-between;
 }
 
 .about-us-img-left {
-	display: none;
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	flex-basis: 32%;
+  	height: auto;
 }
 
 .about-us-img-right {
-	display: none;
-
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	flex-basis: 32%;
+  	height: auto;
 }
 
 .service {
-	flex-basis: 100%;
+	flex-basis: 68%;
 	height: auto;	
 }
 
@@ -293,13 +295,15 @@ h3.hero-intro {
 
  .work-with-us {
 	border-top: 1px solid #bfbfbf;
-	text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .work-with-us h5 {
 	font: bold 1.5625em 'Open Sans', Arial, sans-serif;
 	text-transform: capitalize;	
-	
 }
 
 input[type=submit] {
@@ -313,10 +317,6 @@ input[type=submit] {
   border: none;
   text-transform: capitalize;
 }
-
-	.social-media-navigation {
-	 text-align: center;
-	}
 
 /* 404 Page */
 
@@ -363,85 +363,4 @@ aside#mc4wp_form_widget-2.widget.widget_mc4wp_form_widget {
 
 div.mc4wp-form-fields input {
     margin: 0;
-}
-
-@media (min-width: 768px) {
-	.hero-intro {
-		width: 90%;
-	}
-	
-	
-	.about-us-img-left {
-	display: flex;
-    justify-content: flex-start;
-    align-items: center;
-	flex-basis: 40%;
-  	height: auto;
-	}
-
-	.about-us-img-right {
-	display: flex;
-    justify-content: flex-end;
-    align-items: center;
-	flex-basis: 40%;
-  	height: auto;
-	}
-	
-	.service {
-	flex-basis: 60%;
-	height: auto;	
-	}
-	
-	.social-media-navigation {
-	float: right;
-	width: 40%;
-	}
-	
-}
-
-
-
-@media (min-width: 1200px) {
-	.hero-intro {
-		width: 30%;
-	}
-	
-	.about-us {
-	width: 79%;
-	}
-	
-	.about-us-intro {
-	width: 79%;
-
-	}
-	
-	.about-us-img-left {
-	display: flex;
-    justify-content: flex-start;
-    align-items: center;
-	flex-basis: 32%;
-  	height: auto;
-	}
-
-	.about-us-img-right {
-	display: flex;
-    justify-content: flex-end;
-    align-items: center;
-	flex-basis: 32%;
-  	height: auto;
-	}
-	
-	.service {
-	flex-basis: 68%;
-	height: auto;	
-	}
-	
-	 .work-with-us {
-	border-top: 1px solid #bfbfbf;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: center;
-	}
-	
 }

@@ -17,7 +17,7 @@
 get_header(); ?>
 
 <div id="primary" class="home-page hero-content">
-		<div class="main-content about-us-header" role="main">
+		<div class="main-content" role="main">
 				<h3 class="hero-intro">Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</h3>	
 	</div>
 </div>
